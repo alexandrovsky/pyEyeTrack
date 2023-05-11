@@ -32,12 +32,12 @@ Find the official documentation [here](https://algoasylum.github.io/PyTrack/).',
   download_url = 'https://github.com/algoasylum/pyEyeTrack/archive/v_1_0_1.tar.gz',    
   keywords = ['Eye Tracking','blink detection','User Interface','Webcamera'], 
   install_requires=[
-  'keyboard==0.13.3',
-  'tqdm==4.48.0',
-  'numpy==1.18.1',
+  'keyboard',
+  'tqdm',
+  'numpy',
   'opencv-python',
-  'pandas==0.24.0',
-  'pyaudio==0.2.11',
+  'pandas',
+  'pyaudio',
   ],  
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
